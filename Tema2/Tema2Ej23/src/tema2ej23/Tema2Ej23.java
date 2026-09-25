@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author darkd
+ * @author Alberto Navarro Perez
  */
 public class Tema2Ej23 {
 
@@ -16,18 +16,18 @@ public class Tema2Ej23 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        int precio;
-        int unidades;
-        int total;
+        Scanner entrada = new Scanner(System.in); //preparo la lectura por teclado
+        int precio; //variable para el precio unitario
+        int unidades;// variable para la cantidad de ordenadores
+        int total;//variable donde almacenaremos el coste final
         
-        System.out.println("Por favor, introduzca el precio del modelo de ordenador que desea: ");
-        precio = entrada.nextInt();
+        System.out.println("Por favor, introduzca el precio del modelo de ordenador que desea: "); //pedimos el precio
+        precio = entrada.nextInt();//leemos el precio indicado
         
-        System.out.println("Cuantas unidades quiere llevarse? ");
-        unidades = entrada.nextInt();
+        System.out.println("Cuantas unidades quiere llevarse? ");//solicitamos cantidad para llevarse
+        unidades = entrada.nextInt();//leemos la cantidad
         
-        total= unidades * precio;
+        total= unidades * precio;// calculamos el improte total 
         System.out.println("El total seria:" + total + " Euros.");
         
     }
