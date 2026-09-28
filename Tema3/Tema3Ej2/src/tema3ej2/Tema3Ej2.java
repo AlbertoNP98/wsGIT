@@ -28,7 +28,7 @@ public class Tema3Ej2 {
         producto= num1 * num2;
         suma = num1 + num2;
         
-        if (num1 > num2)
+        if (num1 > 10)
             System.out.println("La operación que se realizó es producto y el resultado es:" + producto);
         else
             System.out.println("La operación que se realizó es suma y el resultado es:" + suma);
