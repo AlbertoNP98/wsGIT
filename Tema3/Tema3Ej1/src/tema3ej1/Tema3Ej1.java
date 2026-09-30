@@ -24,7 +24,7 @@ public class Tema3Ej1 {
         
         if (num >=0) //si la variable es mayor de cero...
             System.out.println("Es positivo");
-        else //y si no
+        else 
             System.out.println("Es negativo");
             
         

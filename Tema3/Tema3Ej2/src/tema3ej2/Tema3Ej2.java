@@ -17,7 +17,7 @@ public class Tema3Ej2 {
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in); //genero el escaner
-        int num1, num2, producto, suma;
+        int num1, num2, producto, suma; //genero variables
         
         System.out.println("Por favor, introduzca un numero: "); //pido al usuario que introduzca numero
         num1 = entrada.nextInt(); //el usuario pone un numero
