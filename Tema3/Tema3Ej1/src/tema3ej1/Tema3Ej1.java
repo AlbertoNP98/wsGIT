@@ -22,7 +22,7 @@ public class Tema3Ej1 {
         System.out.println("Por favor, introduzca un numero: "); //pido al usuario que introduzca numero
         num = entrada.nextInt(); //el usuario pone un numero
         
-        if (num >0) //si la variable es mayor de cero...
+        if (num >=0) //si la variable es mayor de cero...
             System.out.println("Es positivo");
         else //y si no
             System.out.println("Es negativo");
