@@ -20,13 +20,13 @@ public class Tema2Ej25 {
         double num1, num2, num3, suma, producto; //declaro las variables
         
         System.out.println("Por favor, introduzca el primer numero: "); //peticion del mensaje (en los de abajo igual)
-        num1 = entrada.nextInt(); //guardamos el valor (para los restos igual)
+        num1 = entrada.nextDouble(); //guardamos el valor (para los restos igual)
         
         System.out.println("Por favor, introduzca el segundo numero: ");
-        num2 = entrada.nextInt();
+        num2 = entrada.nextDouble();
         
         System.out.println("Por favor, introduzca el tercer numero: ");
-        num3 = entrada.nextInt();
+        num3 = entrada.nextDouble();
         
         suma = num1 + num2 + num3; //calculamos la suma 
         producto = num1 * num2 * num3; //calculamos el producto
