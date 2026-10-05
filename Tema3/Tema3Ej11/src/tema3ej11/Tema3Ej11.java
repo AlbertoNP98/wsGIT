@@ -15,7 +15,7 @@ public class Tema3Ej11 {
      */
     public static void main(String[] args) {
         for (int i = 1; i <= 6; i++) { // El bucle for se inicializa en 1 y se repite mientras la variable 'i' sea menor o igual a 6
-            System.out.println("Hola" + i + "-");
+            System.out.println("Hola " + i);
     }
     }  
 }
