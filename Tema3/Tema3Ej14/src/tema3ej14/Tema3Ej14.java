@@ -14,14 +14,14 @@ public class Tema3Ej14 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int numero = 1;
+        int numero = 1; //genero variable
         
-        do{
-            if (numero % 2 == 0) {
+        do{ //inicio bucle
+            if (numero % 2 == 0) { //compruebo que sea par
                 System.out.println(numero);
         }
-        numero++;
-        } while (numero <= 100);
+        numero++; //incrementamos 1 el valor
+        } while (numero <= 100); // el bucle seguirá dando vueltas mientras el numero sea menor o igual de 100 
     }
     
 }

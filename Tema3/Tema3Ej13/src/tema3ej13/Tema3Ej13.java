@@ -14,14 +14,17 @@ public class Tema3Ej13 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num=11;
-        while (num % 2 ==1){
-            num ++;
-            System.out.println(num);
-            num ++;
-        if (num >=133)
-            break;
-        }
-    }
+    int num = 11;
     
+    while (num <= 133) { // el bucle se repite
+    
+    if (num % 2 == 0) {
+        // Aquí le decimos qué hacer si la condición del if se cumple
+        System.out.println(num); 
+    }
+    num++; //le sumamos 1
+    }
+    }
 }
+    
+
