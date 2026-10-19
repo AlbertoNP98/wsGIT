@@ -5,7 +5,7 @@
 package tema4ej3;
 
 import java.util.Scanner;
-import operaciones.paquete_operaciones.Comparador; //importamos la clase creada en el otro paquete
+import operaciones.PaqueteOperaciones.Comparador; //importamos la clase creada en el otro paquete
 /**
  *
  * @author Alberto Navarro Pérez

@@ -8,7 +8,7 @@ package operaciones;
  *
  * @author Alberto Navarro Pérez
  */
-public class paquete_operaciones {
+public class PaqueteOperaciones {
     
     public class Comparador {
         

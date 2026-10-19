@@ -26,7 +26,7 @@ public class Tema4ej4 {
         System.out.println("Por favor, introduce el tercer número ");
         int num3 = entrada.nextInt();
         
-        paquete_operaciones.imprimirMenor(num1, num2, num3);// Se le pasan los tres números al método de la clase del otro paquete
+        PaqueteOperaciones.imprimirMenor(num1, num2, num3);// Se le pasan los tres números al método de la clase del otro paquete
     }
     
 }

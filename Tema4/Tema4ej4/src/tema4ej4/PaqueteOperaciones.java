@@ -8,7 +8,7 @@ package tema4ej4;
  *
  * @author Alberto Navarro Pérez
  */
-public class paquete_operaciones {
+public class PaqueteOperaciones {
           
         public static void imprimirMenor(int n1, int n2, int n3) { //método estático que recibe los tres numeros por parametros
             int menor = n1;
