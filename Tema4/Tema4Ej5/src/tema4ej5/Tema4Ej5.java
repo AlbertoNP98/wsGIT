@@ -4,6 +4,7 @@
  */
 package tema4ej5;
 
+import operaciones.par_impar;
 import java.util.Scanner;
 
 /**
